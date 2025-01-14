@@ -13,6 +13,8 @@ Os **LLMs (Large Language Models)** são uma categoria avançada de modelos de l
 
 Word embeddings são representações matemáticas de palavras em espaços vetoriais de alta dimensionalidade. Eles permitem que palavras com significados semelhantes tenham representações vetoriais próximas. Por exemplo, em um espaço de embeddings, as palavras "rei", "rainha", "homem" e "mulher" podem formar relações semânticas, como:
 
+![Tempos Verbais](./tempos_verbais.png)
+
 ```
 rei - homem + mulher ≈ rainha
 ```
@@ -38,7 +40,7 @@ Palavras com significados ou contextos semelhantes têm representações vetoria
 
 A proximidade entre vetores é medida utilizando métricas como o **cosseno de similaridade**:
 
-![Título da Imagem](./cosseno.png)
+![Cálculo de Métricas](./cosseno.png)
 
 Onde:
 - v: Vetores das palavras.
